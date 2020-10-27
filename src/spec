@@ -1,0 +1,20 @@
+Got rid of player bc it is rts style. Need clicking functionality for selecting units.
+
+Remember it was originally supposed to be a kind of tower defense game. Maybe I should go back to that.
+
+blocks need to be instantiated more dynamically like bullets
+
+zombies need to move towards the tower...
+more zombies need to be made, randomly,
+zombie direction needs to setable. means that u pass direction data through uniform to zombie shader
+
+Anyway, for what it is now...
+) Make beginning area have borders on all sides.
+) Maybe make monster be able to jump.
+) Maybe put monster in 2nd area.
+) Maybe have a flashing arrow pointing right like they would in something like turtles in time
+) More monsters?
+) Bullets actually hurt monster and you can kill him?
+) Add sounds?
+) Add music?
+

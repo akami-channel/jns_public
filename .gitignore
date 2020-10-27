@@ -1,0 +1,5 @@
+a.*
+!.gitignore
+*~
+a.out
+.a.out

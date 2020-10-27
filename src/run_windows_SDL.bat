@@ -1,0 +1,2 @@
+gcc main_sdl.c -ILibraries\glad\include -ILibraries\SDL2-devel-2.0.12-mingw\SDL2-devel-2.0\SDL2-2.0.12\x86_64-w64-mingw32\include -LLibraries\SDL2-devel-2.0.12-mingw\SDL2-devel-2.0\SDL2-2.0.12\x86_64-w64-mingw32\lib Libraries\glad\glad.c -w -Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -o a.exe
+a.exe
