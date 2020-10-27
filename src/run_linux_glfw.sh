@@ -18,7 +18,9 @@ if test -f "$FILE"; then
 fi
 
 # If it doesn't work for you, try adding any of the libraries below.
-#gcc $1 -lGL -lm -lX11 -lpthread -lXrandr -lXi -ldl -lglfw
-gcc $1 -Wall -lGL -lm -ldl `sdl2-config --cflags --libs` -Wextra -lGL -lm -ldl $library_dir/glad/glad.c $library_dir/GLFW/Linux/libglfw.so.3.3
+# gcc $1 -lGL -lm -lX11 -lpthread -lXrandr -lXi -ldl -lglfw
+gcc $1 -Wall -Wextra -lGL -lm -ldl $library_dir/glad/glad.c $library_dir/GLFW/Linux/libglfw.so.3.3
+
+# gcc $1 -Wall -lGL -lm -ldl `sdl2-config --cflags --libs` -Wextra -lGL -lm -ldl $library_dir/glad/glad.c $library_dir/GLFW/Linux/libglfw.so.3.3
 #gcc $1 -Wall -lGL -lm -ldl $library_dir/glad/glad.c `sdl2-config --cflags --libs` #-Wextra -lGL -lm -ldl $library_dir/glad/glad.c $library_dir/GLFW/Linux/libglfw.so.3.3
 ./a.out
